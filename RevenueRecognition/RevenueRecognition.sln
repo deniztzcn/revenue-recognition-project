@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevenueRecognition", "RevenueRecognition\RevenueRecognition.csproj", "{333934F7-20E4-45DF-91D0-2B84B4F93210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevenueRecognitionUnitTest", "RevenueRecognitionUnitTest\RevenueRecognitionUnitTest.csproj", "{9223C3E0-81AC-437A-9568-43F3A4AB1C13}"
+	ProjectSection(ProjectDependencies) = postProject
+		{333934F7-20E4-45DF-91D0-2B84B4F93210} = {333934F7-20E4-45DF-91D0-2B84B4F93210}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{333934F7-20E4-45DF-91D0-2B84B4F93210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333934F7-20E4-45DF-91D0-2B84B4F93210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333934F7-20E4-45DF-91D0-2B84B4F93210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333934F7-20E4-45DF-91D0-2B84B4F93210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9223C3E0-81AC-437A-9568-43F3A4AB1C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9223C3E0-81AC-437A-9568-43F3A4AB1C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9223C3E0-81AC-437A-9568-43F3A4AB1C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9223C3E0-81AC-437A-9568-43F3A4AB1C13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
