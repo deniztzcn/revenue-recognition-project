@@ -18,11 +18,10 @@ The system aims to manage various aspects of revenue recognition for ABC Corpora
 - **Discounts:** Apply discounts upfront costs, with specified time ranges and percentage values.
 
 ### Contract Management
-- **Upfront Cost Contracts:**
-  - Create contracts with start and end dates, price including discounts, and support period.
-  - Ensure full payment within a specified time range (3 to 30 days) to validate contracts.
-  - Support single or multiple installment payments.
-  - Contracts are immutable once created and can only be removed if needed.
+- Create contracts with start and end dates, price including discounts, and support period.
+- Ensure full payment within a specified time range (3 to 30 days) to validate contracts.
+- Support single or multiple installment payments.
+- Contracts are immutable once created and can only be removed if needed.
 
 ### Revenue Calculation
 - Calculate current and predicted revenue for the company, specific products, and currencies.
